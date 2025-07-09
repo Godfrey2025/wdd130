@@ -16,7 +16,9 @@ aside {
     color:white;
     margin: auto;
     width: 300px;
-    img { width: 200px;height: auto; }
+}
+aside img { width: 200px;
+    height: auto; 
 }
 h1 {
     color: darkblue;
