@@ -69,3 +69,7 @@ h1 {
     float:right;
     width: 125px;
 }
+.social-icon {
+  width: 30px;
+  height: auto; /* keeps aspect ratio */
+}
