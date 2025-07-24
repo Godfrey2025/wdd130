@@ -28,6 +28,13 @@ header,main,footer {
     margin:0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items:center;
+    padding: 1rem   
+}
+
 h1,h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -36,6 +43,14 @@ h1,h2 {
 nav,p,section,article {
     margin: 16px;
     padding:8px;
+}
+
+nav ul {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style:none;
+    padding: 0;
 }
 
 .socialmedia a {
@@ -72,4 +87,28 @@ nav,p,section,article {
 .social-icon {
   width: 30px;
   height: auto; /* keeps aspect ratio */
+}
+
+.history-layout {
+    display:flex;
+    gap: 2rem;
+    align-items:center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #e0f7fa;
+}
+
+.social-icon {
+    display:flex;
+    gap: 1rem;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
 }
