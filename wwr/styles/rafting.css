@@ -112,3 +112,21 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+.adventure-gallery {
+    display:flex;
+    align-items:flex-start;
+    gap: 1rem;
+    flex-wrap:wrap;
+}
+
+figure {
+    text-align:center;
+    width:18%
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
