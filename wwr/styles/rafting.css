@@ -32,7 +32,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items:center;
-    padding: 1rem;   
+    padding: 1rem   
 }
 
 h1,h2 {
@@ -57,17 +57,17 @@ nav ul {
     text-decoration:none
 }
 
-.hero {
+.employee-profiles {
     position:relative
 }
 
-.hero img {
+.employee-profiles img {
     display:block;
     width:100%;
     height: auto;
 }
 
-.hero h1 {
+.employee-profiles h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -80,19 +80,9 @@ nav ul {
 
 /*absolute position of article*/
 
-.hero article img {
-    float:right;
-    width: 125px;
-}
 .social-icon {
   width: 30px;
   height: auto; /* keeps aspect ratio */
-}
-
-.history-layout {
-    display:flex;
-    gap: 2rem;
-    align-items:center;
 }
 
 footer {
@@ -100,15 +90,15 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: var(--accent2-color);
+    background-color: #e0f7fa;
 }
 
-.socialmedia {
+.social-icon {
     display:flex;
     gap: 1rem;
 }
 
-.socialmedia img {
+.social-icons img {
     width: 30px;
     height: 30px;
 }
@@ -130,3 +120,5 @@ figure img {
     border-radius: 5px;
 }
 
+
+style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
