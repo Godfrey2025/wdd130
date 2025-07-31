@@ -160,3 +160,12 @@ button[type="submit"]:hover {
     margin-bottom: 1rem;
   }
 }
+.map {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.employee-profiles {
+            display: flex;
+            flex-direction: row;
+}
