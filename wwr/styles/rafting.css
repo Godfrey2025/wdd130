@@ -240,3 +240,61 @@ button:focus {
   border-radius: 6px;
   margin-bottom: 1rem;
 }
+
+.adventure-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.adventure-gallery img {
+  width: 100px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.adventure-gallery img:hover {
+  transform: scale(1.05);
+}
+
+article {
+  background-color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+/* History & Adventure Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.adventures {
+  background-color: #e6f7ff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #cce6ff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
